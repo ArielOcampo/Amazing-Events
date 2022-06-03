@@ -1,0 +1,131 @@
+header {
+  background-image: url(/assets/img/fondo-header.png);
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #fff;
+  background-color: #d90368;
+  padding: 13px;
+  margin: 7px;
+  font-weight: 600;
+  font-size: 15px;
+  font-family: "Roboto", sans-serif;
+}
+.navbar-light .navbar-toggler {
+  color: #ffeeee;
+  border-color: #d90368;
+}
+.navbar-light .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,<svg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'><path stroke='rgba(217,3,104,1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/></svg>");
+}
+
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #ffcbcb;
+}
+.dropdown-item {
+  color: #d90368;
+}
+.dropdown-item:hover {
+  color: #fff;
+  background-color: #d90368;
+}
+.dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0;
+}
+h6 {
+  font-family: "Bebas Neue", cursive;
+  color: #d90368;
+  font-weight: 600;
+}
+.bar-navegation {
+  box-shadow: 2px -5px 3px 1px rgba(0, 0, 0, 0.1),
+    2px 5px 3px 1px rgba(0, 0, 0, 0.2);
+  background-image: url(/assets/img/fondo-nav-bar-2.png);
+  height: 8vh;
+}
+
+.icon-search {
+  width: 40px;
+  height: 40px;
+}
+
+.font {
+  font-family: "Roboto", sans-serif;
+}
+.card {
+  border: 1px solid #d9036750;
+}
+
+.card-title {
+  text-align: center;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+.btn-primary {
+  background-color: #d90368;
+  color: #fff;
+  border-color: #d90368;
+}
+.btn-primary:hover {
+  color: #fff;
+  background-color: #d90367e6;
+  border-color: #d90367e6;
+}
+.btn {
+  box-shadow: -2px -2px 3px 2px rgba(0, 0, 0, 0.2);
+}
+.form-check {
+  margin-right: 3rem;
+}
+
+.social-media {
+  margin: 15px;
+  width: 3rem;
+  height: 3rem;
+}
+.cohort {
+  font-family: "Bebas Neue", cursive;
+  font-size: 2.2rem;
+  font-weight: 600;
+  color: #d90368;
+}
+#img-events {
+  height: 185px;
+}
+
+.form-control {
+  border: 1px solid #d9036750;
+}
+.table-events tr {
+  height: 30px;
+}
+.table-events th {
+  background-color: #fff2f9;
+  color: #d90368;
+  box-shadow: none;
+}
+table {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.th {
+  font-size: 1.3rem;
+}
+
+.div-container {
+  background-color: #ffeeee;
+  border: 1px solid #d9036750;
+}
+footer {
+  background-color: #ffeeee;
+  padding: 1rem;
+  margin-top: 4rem;
+}
+.not-found{
+  font-family: "Bebas Neue", cursive;
+  font-size: 2.2rem;
+  font-weight: 600;
+  color: #d90368;
+}

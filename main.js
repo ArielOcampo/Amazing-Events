@@ -2,7 +2,7 @@
 var checkSelected = [];
 //API DATA EVENTS
 async function getDataEvents() {
-  await fetch("https://amazing-events.herokuapp.com/api/events")
+  await fetch("https://mindhub-xj03.onrender.com/api/amazing")
   .then(resp => resp.json())
   .then(json => eventos = json)
   
